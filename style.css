@@ -1,74 +1,7 @@
 /* by encoded mabel 
-linktr.ee/mabelolivera10
-*/
-
-@import url("https://fonts.googleapis.com/css?family=Gaegu");
-.about {
-  position: fixed;
-  z-index: 10;
-  bottom: 10px;
-  right: 10px;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  transition: all 0.2s ease;
-}
-
-
-body {
-  background-color: #dec5e1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: "Gaegu", cursive;
-  overflow: hidden;
-}
-
-/* reload button */
-.reload {
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  color: #010503;
-  transition: all 0.5s 0.5s ease;
-  width: auto;
-  height: auto;
-  opacity: 0;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-}
-
-.reload:hover {
+lin
   color: white;
-  top: 5px;
-}
-
-.reload:after {
-  background-color: #ef6c57;
-  content: "";
-  width: 0;
-  height: 2px;
-  opacity: 1;
-  border-radius: 30px;
-  position: absolute;
-  bottom: -4px;
-  z-index: -1;
-  transition: width 0.5s 0.5s ease, height 0.5s 0s ease;
-}
-
-.reload:hover:after {
-  transition: width 0.5s 0s ease, height 0.5s 0.5s ease;
-  width: calc(100% + 30px);
-  height: calc(100% + 10px);
-}
-
-/* elements container */
+  top: 5pxner */
 .content {
   display: flex;
   justify-content: center;
